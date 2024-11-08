@@ -3,7 +3,7 @@ package com.laksamana.gohalalappresep.data
 import androidx.annotation.DrawableRes
 import com.laksamana.gohalalappresep.R
 
-// I have prepared the following data structures and resources to skip the boring part
+//TODO: Data class untuk resep
 
 data class Resep(
     val title: String,
@@ -26,7 +26,7 @@ val strawberryCake = Resep( //TODO: public Value yang berisi informasi dasar men
     rating = "4,9",
     description = "Kue stroberi yang lezat dan mudah dibuat, kue ini juga dapat dibuat dengan buah berrry lainnya.",
     reviews = "84 foto     430 komentar",
-    ingredients = listOf(
+    ingredients = listOf( //TODO: Memanggil drawables
         Ingredient(R.drawable.flour, "Tepung", 450 ),
         Ingredient(R.drawable.eggs, "Telur", 4),
         Ingredient(R.drawable.juice, "Jus Lemon", 150),
